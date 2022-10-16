@@ -16,13 +16,22 @@ body {
   margin: 0 auto;
 }
 
+.blog-btn{
+  text-decoration: none;
+  color: #9dffad;
+}
+
+.blog-btn:hover{
+  color: #9dffad;
+}
+
 #question {
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 15px;
   background: rgb(255, 255, 255);
   background: linear-gradient(

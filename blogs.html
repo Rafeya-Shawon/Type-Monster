@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <header class="title fs-1 bold">Blogs</header>
+    <section>
+        <div class="card text-bg-light">
+            <div class="card-header fw-semibold" style="color: black;">
+                What are the Difference Between Local Storage and Session Storage?
+            </div>
+            <div class="card-body " style="color: black;">
+              <blockquote class="blockquote mb-0 fs-6">
+                <p>The read-only sessionStorage property accesses a session Storage object for the current origin. sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.</p>
+              </blockquote>
+            </div>
+        </div>
+        <div class="card text-bg-light">
+            <div class="card-header fw-semibold" style="color: black;">
+                What is the Difference between block scope and global scope?
+            </div>
+            <div class="card-body " style="color: black;">
+              <blockquote class="blockquote mb-0 fs-6">
+                <p>
+                The main difference between the local scope and block scope is that the block statements (e.g. if conditions or for loops), don't create a new scope. So the var keyword will not have an effect, because the variables are still in the same scope.
+                A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope. The global variables can be accessed by any line of code in the program, including inside blocks.</p>
+              </blockquote>
+            </div>
+        </div>
+        <div class="card text-bg-light">
+            <div class="card-header fw-semibold" style="color: black;">
+                How do we get undefined?
+            </div>
+            <div class="card-body " style="color: black;">
+              <blockquote class="blockquote mb-0 fs-6">
+                <p>The undefined is a primitive type in JavaScript. So the undefined is a type. And the undefined type has exactly one value that is undefined.
+                    1) Accessing an uninitialized variable.
+                    2) Accessing a non-existing property of an object.
+                    3) Function parameters.
+                    4) Functions return a value.
+                    5) Accessing out-of-bounds array elements.</p>
+              </blockquote>
+            </div>
+        </div>
+        <div class="card text-bg-light">
+            <div class="card-header fw-semibold" style="color: black;">
+                What is an event loop in javascript and how does it work?
+            </div>
+            <div class="card-body " style="color: black;">
+              <blockquote class="blockquote mb-0 fs-6">
+                <p>The event loop is the secret behind JavaScript's asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack. The event queue is responsible for sending new functions to the stack for processing. It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution. Whenever an async function is called, it is sent to a browser API. These are APIs built into the browser. Based on the command received from the call stack, the API starts its own single-threaded operation.</p>
+              </blockquote>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
